@@ -22,3 +22,5 @@ function Navbar() {
         </nav>
     ); // Code from Bootstrap.js
 }
+
+export default Navbar;
