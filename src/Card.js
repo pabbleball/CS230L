@@ -22,3 +22,5 @@ function Card() {
             </div>
     ); // Code from Bootstrap
 }
+
+export default Card;
