@@ -1,7 +1,7 @@
 function Card() {
     return (
         <div class="container">
-            <div class="card-deck mt-5">
+            <div class="card-group">
                 <div class="card text-center bg-primary p-4 m-3">
                 <div class="card-body text-white">
                     <h5 class="card-title">Card 01</h5>
