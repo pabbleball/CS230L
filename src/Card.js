@@ -1,32 +1,28 @@
 function Card() {
     return (
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card text-center bg-primary mb-3">
-                    <div class="card-body text-white">
+        <div class="container">
+            <div class="card-deck mt-5">
+                <div class="card text-center bg-primary p-4 m-3">
+                <div class="card-body text-white">
                     <h5 class="card-title">Card 01</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card text-center bg-danger mb-3">
-                    <div class="card-body text-white">
+                </div>
+                <div class="card text-center bg-danger p-4 m-3">
+                <div class="card-body text-white">
                     <h5 class="card-title">Card 02</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card text-center bg-success mb-3">
-                    <div class="card-body text-white">
+                </div>
+                <div class="card text-center bg-success p-4 m-3">
+                <div class="card-body text-white">
                     <h5 class="card-title">Card 03</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                </div>
                 </div>
             </div>
-        </div>
-    ); // Code from Bootstrap
+            </div>
+    ); // Skeleton Code from Bootstrap, Aestheticized by myself
 }
 
 export default Card;
